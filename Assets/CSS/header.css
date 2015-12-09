@@ -1,0 +1,11 @@
+            #header {
+                background-color: #00DEF2;
+                border-radius: 50px;
+                height: 200px;
+                width: 800px;
+                Text-align: center;
+            }
+            li {
+                display: inline;
+                padding: 20px;
+            }

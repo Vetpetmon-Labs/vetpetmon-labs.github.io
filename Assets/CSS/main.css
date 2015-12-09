@@ -1,0 +1,20 @@
+body {
+    background-color: #90BDCC;
+    text-align: center; 
+}
+#header {
+    background-color: #00DEF2;
+    border-radius: 50px;
+    height: 200px;
+    width: 800px;
+    Text-align: center;
+    margin: auto;
+}
+#hero {
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 800px;
+    margin: auto;
+    margin-top: -40px;
+}
