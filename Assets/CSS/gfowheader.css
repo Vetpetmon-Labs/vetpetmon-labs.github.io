@@ -1,6 +1,7 @@
             #topnav {
                 background-color: #ffffff;
-                height: 30%;
+                border-radius: 5px;
+                height: 60%;
                 width: 90%;
                 text-align: center;
                 color: #ffffff;
@@ -11,36 +12,33 @@
 }
 #topnav li a {
     display: block;
-    width: 90px;
+    width: 60px;
 }
 #topnav li {
     display: inline-grid;
-    padding: 10px;
+    padding: 5px;
     margin: 2px;
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff;
     background-color: #e1b3e1;
+    border-radius: 5%;
 }
 a:link {
     text-decoration: none;
-    color: #ffffff;
 }
 
 a:visited {
     text-decoration: none;
-    color: #ffffff;
 }
 
 a:hover {
     text-decoration: none;
-    color: #ffffff;
 }
 
 a:active {
     text-decoration:none;
-    color: #ffffff;
 }
 img {
-    width: 90%;
+    width: 100%;
     Text-align: center;
 }

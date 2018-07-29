@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset='utf-8'>
-        <title>Vetpetmon Labs</title>
-        <!--Scripts-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="Assets/Scripts/load.js"></script>
+        <title>Vetpetmon-Labs</title>
+
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" type="text/css" href="index.css" />
+
+        <script src="index.js">
+
+        </script>
     </head>
+    
     <body>
-        <div id="topnav"></div>
+        <div class="navBar">
+            <div class="navItem" id="VPMS">Home</div>
+            <div class="navItem" id="AP">Projects</div>
+        </div>
+        <div class="hidden2 recentItems">
+            <h1>Projects</h1>
+            <br>
+            <div class="recentBody">
+                <a class="postLink" id="A" onclick="clickHandler(event)">GFOW</a>
+            </div>
+            <br>
+            <input type="button" value="CLOSE" onclick="document.getElementsByClassName('recentItems')[0].classList.add('hidden2'); document.getElementsByClassName('recentItems')[0].classList.remove('visible2');" />
+        </div>
+        <div class="postArea">
+            <div class="mainArea">
+                <div class="hidden post all">
+                    <br>
+                    <br>
+                    <h1>All Posts</h1>
+                    <br>
+                    <a class="postLink" id="A" onclick="clickHandler(event); document.getElementsByClassName('recentItems')[0].classList.add('hidden2'); document.getElementsByClassName('recentItems')[0].classList.remove('visible2');">[1-21-2018] Modding Starbound itself is it's own hell</a>
+                    <br>
+            </div>
+        </div>
     </body>
 </html>
